@@ -4,7 +4,7 @@
 title: "Protein structural determinants of HIV evolution"
 date: 2015-03-15T12:00:00Z
 doi: # e.g. 10.1234/example.1
-github: ausmeyer/hivgp120-paper-now
+github: ausmeyer/hiv_structural_determinants-paper-now/
 
 authors:
   - &austin-meyer
