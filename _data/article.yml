@@ -1,0 +1,74 @@
+# Note: to avoid repeating the same data multiple times,
+# identifiers (starting with "&") are referenced later (starting with "*")
+
+title: "Protein structural determinants of HIV evolution"
+date: 2015-03-15T12:00:00Z
+doi: # e.g. 10.1234/example.1
+github: ausmeyer/hivgp120-paper-now
+
+authors:
+  - &austin-meyer
+    id: "austin-meyer"
+    name: "Austin G. Meyer"
+    email: "austin.g.meyer@gmail.com"
+    url: http://www.meyerlab.org
+    orcid: ""
+
+  - &claus-wilke
+    id: "claus-wilke"
+    name: "Claus O. Wilke"
+    orcid: ""
+
+affiliations:
+  - name: "University of Texas"
+    department: "Department of Integrative Biology"
+    location: "Austin, TX, USA"
+    url: https://integrativebio.utexas.edu
+    members:
+      - *austin-meyer
+      - *claus-wilke
+
+  - name: "Texas Tech University Health Sciences Center"
+    department: "School of Medicine"
+    location: "Lubbock, TX, USA"
+    members:
+      - *austin-meyer
+
+funders:
+  - name: "Defense Threat Reduction Agency"
+    url: http://www.dtra.mil
+    sameAs: ""
+    awards:
+      - name: HDTRA-12-C-0007
+        recipients:
+          - *claus-wilke
+          
+  - name: "National Institutes of Health"
+    url: http://www.nih.gov
+    sameAs: ""
+    awards:
+      - name: R01 GM088344
+        recipients:
+          - *claus-wilke
+     
+  - name: "National Science Foundation"
+    url: http://www.nsf.gov
+    sameAs: ""
+    awards:
+      - name: Cooperative Agreement No. DBI-0939454
+        recipients:
+          - *claus-wilke
+
+
+contributions:
+  - name: "Designed the study, performed analysis, and wrote the manuscript"
+    url: 
+    contributors:
+      - *austin-meyer
+      
+  - name: "Designed the study, and wrote the manuscript"
+    url: 
+    contributors:
+      - *claus-wilke
+
+
